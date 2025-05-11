@@ -3,7 +3,7 @@
 Welcome to my personal Portfolio Website!
 This site showcases my journey, skills, and projects as a Data Science and Analytics Enthusiast.
 
-🌐 Live Portfolio: [Nibedita | Portfolio](nibeditans.github.io)
+## 🌐 Live Portfolio: [Nibedita | Portfolio](https://nibeditans.github.io/)
 
 ## About This Portfolio
 I have designed and developed this portfolio using HTML, CSS, and JavaScript. This portfolio serves as a comprehensive showcase of my skills, projects, and professional journey for anyone interested in exploring my work and background.
