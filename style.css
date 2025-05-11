@@ -1,0 +1,423 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  /* body {
+    background-color: #011200;
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
+  } */
+
+
+  
+
+  html {
+    scroll-padding-top: 40px;
+    scroll-behavior: smooth;
+  }
+  
+
+  body {
+    background: url('green_gradient_bg.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+
+ 
+/* Header Styles */
+header {
+    /* background-color: transparent; */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); */
+    
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+  
+  }
+
+  
+  /* Navigation Button Styles */
+  .nav-buttons {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-buttons a {
+    text-decoration: none;
+    background: #aaff94;
+    color: #121212;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-buttons a:hover {
+    background: #33ff00;
+    border-color: #33ff00;
+  }
+
+
+  /* Responsive Design for Mobile: */
+  @media (max-width: 700px) {
+    .header-container {
+      flex-direction: row;
+      align-items: stretch;
+    }
+  
+    .nav-buttons {
+      flex-direction: row;
+      gap: 10px;
+      width: 100%;
+      margin-top: 15px;
+    }
+  
+    .nav-buttons a {
+      width: 100%;
+      text-align: center;
+      padding: 12px 0;
+    }
+  }
+  
+
+
+/* Section Styling */
+section {
+    text-align: center;
+    margin: 20px auto 10px;  /* Reduced top margin */
+    padding: 40px 20px;
+    background-color: #071601; /* Slightly darker background for contrast */
+    border: 1px dashed whitesmoke;
+}
+
+#home {
+  border: none; /* This removes border for only title section */
+  background: none;
+}
+
+
+section h1 {
+    font-size: 2.8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: yellow;
+}
+
+#cursor {
+  display: inline-block;
+  color: yellow;
+  font-weight: bold;
+  margin-left: 5px;
+  animation: blink 0.5s steps(1) infinite;
+  font-size: 1.5rem;
+}
+  
+  #role {
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  
+  /* Section Styling */
+  section {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 1100px;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 5px;
+    color: #aaff94;
+  }
+  
+
+  .find_me {
+    border: none;
+    color: yellow;
+    font-size: 20px;
+  }
+  
+
+  #social-links .icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+    justify-content: center;
+  }
+  
+  #social-links a {
+    color: whitesmoke;
+    font-size: 2.4rem;
+    transition: color 0.3s;
+  }
+  
+  #social-links a:hover {
+    color: #33ff00;
+  }
+  
+
+  /* Skills Section */
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill-box {
+    /* flex: 1 1 45%; */
+    text-align: center;
+    background: #021a01;
+    padding: 20px;
+    border-radius: 4px;
+    /* border: 1px solid yellow; */
+    transition: 
+        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  }
+
+  .skill-box:hover {
+  box-shadow: 0 0 24px 8px greenyellow;
+  transform: scale(1.04);
+}
+
+
+
+  .tech-pill {
+  display: inline-block;
+  border: 1px solid #aaff94;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin: 4px 4px 4px 0;
+  font-size: 0.95rem;
+  color: #aaff94;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.tech-pill:hover {
+  background-color: #aaff94;
+  color: #121212;
+  cursor: default;
+}
+
+  
+  /* Projects */
+  .project {
+    background: #021a01;
+    padding: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    text-align: left;
+    /* border: 1px solid yellow; */
+    transition: 
+        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project:hover {
+  box-shadow: 0 0 24px 8px greenyellow;
+  transform: scale(1.04);
+}
+
+  .project h4 {
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: #aaff94;
+    color: #121212;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background: #33ff00;
+  }
+
+
+  .project-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+
+  .project-img {
+    width: 500px;      /* Adjust width as you like */
+    height: auto;
+    border-radius: 4px;
+    /* border: 2px solid #aaff94; */
+    /* box-shadow: 0 2px 8px rgba(0,0,0,0.15); */
+  }
+
+
+  /* .btn {
+  margin-right: 12px;
+} */
+
+  /* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  /* vertical-align: middle; */
+}
+
+/* Dropdown button */
+.dropbtn {
+  background-color: #aaff94;
+  color: #121212;
+  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-weight: bold;
+  min-width: 200px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+  /* border: 2px solid white; */
+  border-radius: 4px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #021a01;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #99caff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #33ff00;}
+
+
+
+
+
+  /* Responsive Design for Mobile: */
+  @media (max-width: 600px) {
+    .project-flex {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .project-img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 15px;
+    }
+  }
+
+
+  /* Tablet view: 601px to 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .project-flex {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .project-img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+}
+
+  
+  
+  
+  .email-button {
+    display: inline-block;
+    background-color: #aaff94;
+    color: #121212;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .email-button:hover {
+    background-color: #33ff00;
+  }
+  
+  
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    margin-top: 50px;
+  }
+
+
+  
+  /* Hide the HTML logo by default (desktop) */
+.responsive-logo {
+  display: none;
+  position: absolute; /* Adjust as needed */
+  top: 20px;
+  right: 20px;
+  width: 60px; /* Adjust size as needed */
+  z-index: 10;
+}
+
+/* Show the logo on tablet and mobile */
+@media (max-width: 660px) {
+  .responsive-logo {
+    display: block;
+  }
+}
