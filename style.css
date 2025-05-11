@@ -302,6 +302,16 @@ section h2 {
   /* vertical-align: middle; */
 }
 
+/* Responsive Design for Mobile: */
+@media (max-width: 500px) {
+  .dropdown {
+    display: block;
+    margin-top: 12px;
+    width: 40%;
+  }
+}
+
+
 /* Dropdown button */
 .dropbtn {
   background-color: #aaff94;
