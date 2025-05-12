@@ -14,7 +14,6 @@
   } */
 
 
-  
 
   html {
     scroll-padding-top: 40px;
@@ -104,14 +103,14 @@ header {
 /* Section Styling */
 section {
     text-align: center;
-    margin: 20px auto 10px;  /* Reduced top margin */
+    margin: 20px auto 10px;
     padding: 40px 20px;
     background-color: #071601; /* Slightly darker background for contrast */
     border: 1px dashed whitesmoke;
 }
 
 #home {
-  border: none; /* This removes border for only title section */
+  border: none;
   background: none;
 }
 
@@ -282,7 +281,7 @@ section h2 {
 
 
   .project-img {
-    width: 500px;      /* Adjust width as you like */
+    width: 500px;
     height: auto;
     border-radius: 4px;
     /* border: 2px solid #aaff94; */
@@ -385,8 +384,7 @@ section h2 {
   }
 }
 
-  
-  
+    
   
   .email-button {
     display: inline-block;
@@ -418,14 +416,14 @@ section h2 {
   /* Hide the HTML logo by default (desktop) */
 .responsive-logo {
   display: none;
-  position: absolute; /* Adjust as needed */
+  position: absolute;
   top: 20px;
   right: 20px;
-  width: 60px; /* Adjust size as needed */
+  width: 60px;
   z-index: 10;
 }
 
-/* Show the logo on tablet and mobile */
+/* Show the logo on mobile */
 @media (max-width: 660px) {
   .responsive-logo {
     display: block;
