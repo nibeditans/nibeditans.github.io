@@ -295,7 +295,7 @@ section h2 {
       flex-direction: column;
     }
     .project-img {
-      order: 2;
+      order: 1;
     }
   }
 
