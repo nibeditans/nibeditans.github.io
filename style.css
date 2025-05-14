@@ -289,6 +289,23 @@ section h2 {
   }
 
 
+  /* Only for Tablet/Mobile View */
+  @media (max-width: 1024px) {
+    .project-flex {
+      flex-direction: column;
+    }
+    .project-title {
+      order: 1;
+    }
+    .project-img {
+      order: 2;
+    }
+    .project-details {
+      order: 3;
+    }
+  }
+
+
   /* .btn {
   margin-right: 12px;
 } */
