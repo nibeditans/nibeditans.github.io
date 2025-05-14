@@ -294,14 +294,8 @@ section h2 {
     .project-flex {
       flex-direction: column;
     }
-    .project-title {
-      order: 1;
-    }
     .project-img {
       order: 2;
-    }
-    .project-details {
-      order: 3;
     }
   }
 
