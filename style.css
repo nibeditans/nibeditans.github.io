@@ -78,7 +78,7 @@ header {
 
 
   /* Responsive Design for Mobile: */
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
     .header-container {
       flex-direction: column;
       align-items: center;
