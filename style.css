@@ -397,20 +397,74 @@ section h2 {
 
     
   
-  .email-button {
-    display: inline-block;
-    background-color: #aaff94;
-    color: #121212;
-    padding: 12px 24px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background 0.3s ease;
+  /* ===== Contact Section Styling ===== */
+#contact {
+  margin-top: 100px;
+  text-align: center;
+  /* font-family: 'Open Sans', sans-serif; */
+  background: transparent;
+  border: none;
+}
+
+#contact h3 {
+  margin-bottom: 20px;
+}
+
+  .connect {
+    border: none;
+    color: #aaff94;
   }
-  
-  .email-button:hover {
-    background-color: #33ff00;
-  }
+
+
+/* Form fields */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  background: #c6efff;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: none;
+}
+
+/* First Name + Last Name side by side */
+.name-row {
+  display: flex;
+  gap: 10px;
+}
+
+.name-row input {
+  flex: 1;
+}
+
+/* Button style */
+.email-button {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+  background-color: #aaff94;
+  color: #121212;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.email-button:hover {
+  background-color: #33ff00;
+}
   
   
   
