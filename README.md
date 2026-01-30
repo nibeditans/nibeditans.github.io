@@ -16,6 +16,7 @@ I have designed and developed this portfolio using HTML, CSS, and JavaScript. Th
     - ***Skills:*** Contains two categories: `Tools and Technologies` and `Techniques and Concepts`. Each shows my skills and abilities.
     - ***Background:*** About my Educational Background.
     - ***Projects:*** Showcases selected Data Science and Analytics projects.
+    - ***Lab:*** Experiment & Concept-based projects.
     - ***Contact:*** Easily get in touch via email.
  
 ## Technologies Used
