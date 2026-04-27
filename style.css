@@ -234,6 +234,34 @@ section h2 {
   cursor: default;
 }
 
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 20px; /* space between boxes */
+}
+
+.skill-box {
+  background-color: #021a01;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile (fine-tune) */
+@media (max-width: 480px) {
+  .skill-box {
+    padding: 12px;
+  }
+}
+
   
   /* Projects */
   .project {
