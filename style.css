@@ -273,6 +273,38 @@ section h2 {
   }
 }
 
+
+/* Container for the experience boxes */
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Individual Experience Box matching your skill-box style */
+.experience-box {
+  background: #021a01;
+  padding: 25px;
+  border-radius: 4px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.experience-box:hover {
+  box-shadow: 0 0 24px 8px greenyellow;
+  transform: scale(1.04);
+}
+
+/* Link area with buttons/pills */
+.experience-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
   
   /* Projects */
   .project {
