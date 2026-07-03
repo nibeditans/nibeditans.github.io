@@ -23,7 +23,7 @@ I have designed and developed this portfolio using HTML, CSS, and JavaScript. Th
   
     - ***Background:*** About my Educational Background.
     - ***Experience:*** About my Work Experiences.
-    - ***Projects:*** Showcases selected Data Science and Analytics projects.
+    - ***Projects:*** Showcases selected Data projects.
     - ***Case Studies:*** This section includes two categories:
         - Project-Based: These are from Projects I've built.
         - Problem-Based: There are independent Problem-based Case Studies.
@@ -43,6 +43,6 @@ Feel free to reach out to me for opportunities, collaborations, or feedback!
   - **Medium:** [Nibedita (NS)](https://nsdsda.medium.com/)
 
 ## License
-This project is open source under the [MIT License](LICENCE).
+This project is open source under the [MIT License](LICENSE).
 
 Thank you for visiting my portfolio!
