@@ -1,7 +1,7 @@
-# Nibedita – Data Science & Analytics Portfolio
+# Nate – Data Science & AI Portfolio
 
-Welcome to my personal Portfolio Website!
-This site showcases my journey, skills, and projects as a Data Science and Analytics Enthusiast.
+Welcome to my personal Portfolio Website!   
+This site showcases my journey, skills, and projects as a Data & Decision Scientist.
 
 ## 🌐 Live Portfolio: [Nate | Data Science & AI](https://nibeditans.github.io/)
 
