@@ -13,14 +13,7 @@ I have designed and developed this portfolio using HTML, CSS, and JavaScript. Th
 - **Sections:**
     - ***Home:*** My Name and What I'm.
     - ***About:*** Brief overview of who I am and my passion for Data.
-    - ***Skills:*** Contains 4 categories:
-        - Data Science & Machine Learning
-        - Statistics & Modeling
-        - Analytics & Decision Intelligence
-        - Workflow & Communication Tools
-    
-        Each shows my skills and abilities.
-  
+    - ***Skills:*** Shows my skills and abilities.
     - ***Background:*** About my Educational Background.
     - ***Experience:*** About my Work Experiences.
     - ***Projects:*** Showcases selected Data projects.
